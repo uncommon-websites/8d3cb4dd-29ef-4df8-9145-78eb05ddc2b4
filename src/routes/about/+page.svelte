@@ -26,29 +26,25 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Focus, not frenzy"
+	subtitle="Quiet the noise, hear what matters"
+	imageSrc="/generated/image-a-diverse-professional-team-collaboratin.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"The inspiration behind Brief Me came from a simple but painful truth: even the most focused leaders were drowning under an endless stream of communication. Between Slack, email, calendars, and chat threads, most executives were spending over three hours a day just trying to catch up — not strategize, not lead, just catch up. Important decisions got buried under notifications, and the overwhelm always seemed to outpace the inbox zero attempts.",
+		"Rather than ask leaders to manage one more app, we built Brief Me to work around their lives — not the other way around. With AI-powered filtering and professional audio narration, we turn your digital noise into clarity you can act on. Every brief highlights the decisions, deadlines, and updates that truly matter. Delivered daily in your podcast app, inbox, or on your commute. In early testing, our users saved an average of 7.2 hours per week — not by doing more, but by hearing less, better.",
+		"Our mission is clear: give leaders back their time, attention, and ability to think clearly. No dashboards, no hopping between apps — just focused, actionable briefings that reduce stress and increase impact. Hundreds of startup leaders are already listening. We're just getting started."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
 	subtitle="Your partners in innovation."
@@ -75,7 +71,6 @@
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -97,8 +92,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to reclaim your focus?"
+	subtitle="Join hundreds of startup leaders already listening"
+	description="Transform your information overload into focused productivity with Brief Me's intelligent audio briefings."
 />
