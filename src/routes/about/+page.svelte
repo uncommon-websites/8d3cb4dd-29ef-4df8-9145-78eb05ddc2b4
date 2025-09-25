@@ -3,7 +3,6 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 
 	// Icons
-	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import SecondaryHero from "$lib/components/layout/hero-sections/SecondaryHero.svelte";
 	import Culture from "$lib/components/layout/Culture.svelte";
@@ -11,16 +10,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Focus over frenzy",
+			description: "We believe attention is precious. Our AI cuts through the noise to deliver only what matters, giving leaders back their ability to think strategically."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Human-centered intelligence",
+			description: "Technology should adapt to how leaders actually work. We build audio-first solutions that fit seamlessly into busy lives, not the other way around."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Measurable freedom",
+			description: "Every feature we build must demonstrably save time and reduce stress. Our users save 7.2 hours weekly—that's time returned to leadership and decision-making."
 		}
 	];
 </script>
@@ -43,56 +42,12 @@
 <!-- Our Culture Section -->
 <Culture {values} />
 
-<!-- StakeholderGrid Section -->
-<StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<!-- Team and Investor sections removed - no information available for Brief Me -->
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to reclaim your focus?"
-	subtitle="Join hundreds of startup leaders already listening"
-	description="Transform your information overload into focused productivity with Brief Me's intelligent audio briefings."
+	title="Hours back. Stress down. Focus locked."
+	subtitle="Join 357+ early adopters saving 7.2 hours weekly"
+	description="Stop drowning in 400+ daily messages. Brief Me's AI transforms your communication chaos into focused audio briefings you can consume on your commute. Private beta access available now."
+	imageSrc="/generated/image-a-premium-documentary-style-photograph-o.webp"
 />
